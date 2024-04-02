@@ -224,7 +224,7 @@ body{
    justify-content: center;
    align-items: center;
    width: auto;
-   padding:0 10% ;
+   padding:3% 10% ;
  }
 
  .unseen-left{
@@ -257,6 +257,48 @@ body{
    border-radius: 4px;
  }
 
+ .helps{
+   width: auto;
+   display: flex;
+   justify-content: center;
+   padding: 0 10% ;
+   align-items: center;
+   height: 290px;
+   background-color: #F5F7FA;
+ }
+
+ .helps-left{
+   width: 50%;
+   
+}
+.helps-left h1{
+   font-size: 36px;
+}
+.helps-left h1 span{
+   color: #4CAF4F;
+}
+
+.helps-left p{
+   margin-top: 15px;
+}
+ .helps-right{
+   width:  50%;
+   display: grid;
+   grid-template-columns: auto auto;
+   row-gap: 20px;
+   column-gap: 10px;
+ }
+
+ .helps-quantity{
+    display: flex;
+    width: fit-content;
+    column-gap: 20px
+ }
+
+ .helps-quantity img{
+   width: 48px;
+   height: 48px;
+ }
  @media screen and (max-width:1350px) {
 
     .hero{
