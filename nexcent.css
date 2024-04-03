@@ -356,7 +356,7 @@ body{
 
 .marketing{
    width: auto;
-   height: 50px;
+   height: fit-content;
    padding: 3% 5% 0 5%;
 }
 .marketing-text{
@@ -406,6 +406,80 @@ body{
 .marketing-list-details button a{
    text-decoration: none;
    color: #4CAF4F;
+   font-size: 20px;
+}
+
+.Getdemo {
+   text-align: center;
+   margin-bottom: 40px;
+   padding: 0 5%;
+}
+
+.Getdemo h1{
+   font-size: 64px;
+}
+.Getdemo button{
+   font-size: 16px;
+   color: white;
+   padding: 14px 32px;
+   border: none;
+   outline: none;
+   background-color: #4CAF4F;
+   border-radius: 4px;
+   margin-top: 20px;
+}
+
+.Getdemo a {
+   text-decoration: none;
+   color: white;
+}
+
+.footer{
+   background-color:#263238;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   padding: 5% 10%;
+   height: 328px;
+   justify-content: space-around;
+}
+
+.footer-col1{
+   display: grid;
+   row-gap: 30px;
+   color: white;
+   
+}
+
+.lists{
+   color: white;
+   list-style: none;
+   display: grid;
+   font-size: 14px;
+   
+}
+
+.lists h3{
+   font-size: 26px;
+}
+.lists a{
+   color: white;
+   text-decoration: none;
+}
+
+.mail h3{
+   font-size: 26px;
+   color: white;
+   margin-bottom: 20px;
+}
+
+.mail input{
+   padding: 14px 14px;
+   background-color: #FFFFFF25 ;
+   border: none;
+   outline: none;
+   border-radius: 6px;   
+   width: 100%;
+   color: white;
    font-size: 20px;
 }
 
@@ -462,6 +536,19 @@ body{
     justify-content: center;
     width: 100%;
     margin-top: 40px;
+   }
+
+   .footer{
+      display: grid;
+      grid-template-columns: auto auto;
+      row-gap: 50px;
+      height: fit-content;
+      justify-content: center;
+      column-gap: 20%;
+   }
+   .lists{
+      display: grid;
+      row-gap: 20px;
    }
  }
 
@@ -560,6 +647,9 @@ body{
    .marketing-list{
       display: block;
    }
+   .Getdemo h1{
+      font-size: 48px;
+   }
  }
 
  @media screen and (max-width:425px) {
@@ -594,6 +684,16 @@ body{
       grid-template-columns: auto;
    }
 
- 
+   .footer{
+      padding-top: 50px;
+      display: grid;
+      grid-template-columns: auto;
+      text-align: center;
+   }
+
+   .footer-col1{
+      display: grid;
+      justify-content: center;
+   }
  }
 
