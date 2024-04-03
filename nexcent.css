@@ -645,8 +645,11 @@ body{
 
  @media screen and (max-width:768px) {
    .marketing-list{
-      display: block;
+      display: grid;
+      grid-template-columns: auto;
    }
+
+   .ma
    .Getdemo h1{
       font-size: 48px;
    }
